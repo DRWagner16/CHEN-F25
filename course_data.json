@@ -1,0 +1,923 @@
+[
+    {
+        "Task":"CH EN 1703-001",
+        "Day":"Tuesday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 1703-001<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Tuesday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes<br>Room: ASB 210",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"ASB 210",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 1703-001",
+        "Day":"Thursday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 1703-001<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Thursday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes<br>Room: ASB 210",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"ASB 210",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 1703-002",
+        "Day":"Monday",
+        "StartHour":11.8333333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-002<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Monday<br>Time: 11:50 AM - 12:40 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 1703-003",
+        "Day":"Monday",
+        "StartHour":14.0,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-003<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Monday<br>Time: 02:00 PM - 02:50 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 1703-004",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-004<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Tuesday<br>Time: 12:25 PM - 01:15 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 1703-005",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-005<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Tuesday<br>Time: 02:00 PM - 02:50 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 1703-006",
+        "Day":"Wednesday",
+        "StartHour":17.1666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-006<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Wednesday<br>Time: 05:10 PM - 06:00 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"1st-Year"
+    },
+    {
+        "Task":"CH EN 2300",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 2300<\/b><br>--------------------<br>Instructor(s): Kelly<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: WEB 1230",
+        "Resource":[
+            "Kelly"
+        ],
+        "Room":"WEB 1230",
+        "CourseGroup":"Sophomore"
+    },
+    {
+        "Task":"CH EN 2300",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 2300<\/b><br>--------------------<br>Instructor(s): Kelly<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: WEB 1230",
+        "Resource":[
+            "Kelly"
+        ],
+        "Room":"WEB 1230",
+        "CourseGroup":"Sophomore"
+    },
+    {
+        "Task":"CH EN 2450",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2450<\/b><br>--------------------<br>Instructor(s): Chen<br>Day: Tuesday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 2250",
+        "Resource":[
+            "Chen"
+        ],
+        "Room":"WEB 2250",
+        "CourseGroup":"Sophomore"
+    },
+    {
+        "Task":"CH EN 2450",
+        "Day":"Thursday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2450<\/b><br>--------------------<br>Instructor(s): Chen<br>Day: Thursday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 2250",
+        "Resource":[
+            "Chen"
+        ],
+        "Room":"WEB 2250",
+        "CourseGroup":"Sophomore"
+    },
+    {
+        "Task":"CH EN 2800",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2800<\/b><br>--------------------<br>Instructor(s): Chen<br>Day: Tuesday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes<br>Room: MEN 4550",
+        "Resource":[
+            "Chen"
+        ],
+        "Room":"MEN 4550",
+        "CourseGroup":"Sophomore"
+    },
+    {
+        "Task":"CH EN 2800",
+        "Day":"Thursday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2800<\/b><br>--------------------<br>Instructor(s): Chen<br>Day: Thursday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes<br>Room: MEN 4550",
+        "Resource":[
+            "Chen"
+        ],
+        "Room":"MEN 4550",
+        "CourseGroup":"Sophomore"
+    },
+    {
+        "Task":"CH EN 2953",
+        "Day":"Tuesday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 2953<\/b><br>--------------------<br>Instructor(s): Eddings<br>Day: Tuesday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB 1230",
+        "Resource":[
+            "Eddings"
+        ],
+        "Room":"WEB 1230",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"CH EN 3253",
+        "Day":"Monday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3253<\/b><br>--------------------<br>Instructor(s): Deo, Wagner<br>Day: Monday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes<br>Room: WEB 1250",
+        "Resource":[
+            "Deo",
+            "Wagner"
+        ],
+        "Room":"WEB 1250",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"CH EN 3253",
+        "Day":"Wednesday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3253<\/b><br>--------------------<br>Instructor(s): Deo, Wagner<br>Day: Wednesday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes<br>Room: WEB 1250",
+        "Resource":[
+            "Deo",
+            "Wagner"
+        ],
+        "Room":"WEB 1250",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"CH EN 3253",
+        "Day":"Friday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3253<\/b><br>--------------------<br>Instructor(s): Deo, Wagner<br>Day: Friday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes<br>Room: WEB 1250",
+        "Resource":[
+            "Deo",
+            "Wagner"
+        ],
+        "Room":"WEB 1250",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"CH EN 3353",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3353<\/b><br>--------------------<br>Instructor(s): Faroughi<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: GC 2660",
+        "Resource":[
+            "Faroughi"
+        ],
+        "Room":"GC 2660",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3353",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3353<\/b><br>--------------------<br>Instructor(s): Faroughi<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: GC 2660",
+        "Resource":[
+            "Faroughi"
+        ],
+        "Room":"GC 2660",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3353",
+        "Day":"Friday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3353<\/b><br>--------------------<br>Instructor(s): Faroughi<br>Day: Friday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: GC 2660",
+        "Resource":[
+            "Faroughi"
+        ],
+        "Room":"GC 2660",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3453",
+        "Day":"Monday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 3453<\/b><br>--------------------<br>Instructor(s): Pershing, Powell<br>Day: Monday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1230",
+        "Resource":[
+            "Pershing",
+            "Powell"
+        ],
+        "Room":"WEB 1230",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3453",
+        "Day":"Wednesday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 3453<\/b><br>--------------------<br>Instructor(s): Pershing, Powell<br>Day: Wednesday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1230",
+        "Resource":[
+            "Pershing",
+            "Powell"
+        ],
+        "Room":"WEB 1230",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3700-001",
+        "Day":"Monday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-001<\/b><br>--------------------<br>Instructor(s): Coburn<br>Day: Monday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes<br>Room: M LI 1715",
+        "Resource":[
+            "Coburn"
+        ],
+        "Room":"M LI 1715",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3700-001",
+        "Day":"Wednesday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-001<\/b><br>--------------------<br>Instructor(s): Coburn<br>Day: Wednesday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes<br>Room: M LI 1715",
+        "Resource":[
+            "Coburn"
+        ],
+        "Room":"M LI 1715",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3700-001",
+        "Day":"Friday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-001<\/b><br>--------------------<br>Instructor(s): Coburn<br>Day: Friday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes<br>Room: M LI 1715",
+        "Resource":[
+            "Coburn"
+        ],
+        "Room":"M LI 1715",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3700-002",
+        "Day":"Monday",
+        "StartHour":7.5,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-002<\/b><br>--------------------<br>Instructor(s): Coburn<br>Day: Monday<br>Time: 07:30 AM - 08:20 AM<br>Duration: 50 minutes<br>Room: WEB 2250",
+        "Resource":[
+            "Coburn"
+        ],
+        "Room":"WEB 2250",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3700-002",
+        "Day":"Wednesday",
+        "StartHour":7.5,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-002<\/b><br>--------------------<br>Instructor(s): Coburn<br>Day: Wednesday<br>Time: 07:30 AM - 08:20 AM<br>Duration: 50 minutes<br>Room: WEB 2250",
+        "Resource":[
+            "Coburn"
+        ],
+        "Room":"WEB 2250",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3700-002",
+        "Day":"Friday",
+        "StartHour":7.5,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-002<\/b><br>--------------------<br>Instructor(s): Coburn<br>Day: Friday<br>Time: 07:30 AM - 08:20 AM<br>Duration: 50 minutes<br>Room: WEB 2250",
+        "Resource":[
+            "Coburn"
+        ],
+        "Room":"WEB 2250",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3701-001",
+        "Day":"Monday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 3701-001<\/b><br>--------------------<br>Instructor(s): Porter, Pershing, McLennan<br>Day: Monday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours<br>Room: MEB 2550",
+        "Resource":[
+            "Porter",
+            "Pershing",
+            "McLennan"
+        ],
+        "Room":"MEB 2550",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3701-002",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 3701-002<\/b><br>--------------------<br>Instructor(s): Porter, Pershing, McLennan<br>Day: Tuesday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours<br>Room: MEB 2550",
+        "Resource":[
+            "Porter",
+            "Pershing",
+            "McLennan"
+        ],
+        "Room":"MEB 2550",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3853",
+        "Day":"Monday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3853<\/b><br>--------------------<br>Instructor(s): Wang<br>Day: Monday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB 1250",
+        "Resource":[
+            "Wang"
+        ],
+        "Room":"WEB 1250",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3853",
+        "Day":"Wednesday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3853<\/b><br>--------------------<br>Instructor(s): Wang<br>Day: Wednesday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB 1250",
+        "Resource":[
+            "Wang"
+        ],
+        "Room":"WEB 1250",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 3853",
+        "Day":"Friday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3853<\/b><br>--------------------<br>Instructor(s): Wang<br>Day: Friday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB 1250",
+        "Resource":[
+            "Wang"
+        ],
+        "Room":"WEB 1250",
+        "CourseGroup":"Junior"
+    },
+    {
+        "Task":"CH EN 4203",
+        "Day":"Monday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4203<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Monday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB L102",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"WEB L102",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4203",
+        "Day":"Wednesday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4203<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Wednesday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB L102",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"WEB L102",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4203",
+        "Day":"Friday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4203<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Friday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes<br>Room: WEB L102",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"WEB L102",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4253",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4253<\/b><br>--------------------<br>Instructor(s): Wagner<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: FASB 295",
+        "Resource":[
+            "Wagner"
+        ],
+        "Room":"FASB 295",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4253",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4253<\/b><br>--------------------<br>Instructor(s): Wagner<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: FASB 295",
+        "Resource":[
+            "Wagner"
+        ],
+        "Room":"FASB 295",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4253",
+        "Day":"Friday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4253<\/b><br>--------------------<br>Instructor(s): Wagner<br>Day: Friday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: FASB 295",
+        "Resource":[
+            "Wagner"
+        ],
+        "Room":"FASB 295",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4701-001",
+        "Day":"Wednesday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4701-001<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Wednesday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours<br>Room: MEB 3520",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"MEB 3520",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4701-002",
+        "Day":"Thursday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4701-002<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Thursday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours<br>Room: MEB 3520",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"MEB 3520",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4706-001",
+        "Day":"Monday",
+        "StartHour":12.9166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4706-001<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Monday<br>Time: 12:55 PM - 01:45 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4706-001",
+        "Day":"Monday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4706-001<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Monday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4706-002",
+        "Day":"Tuesday",
+        "StartHour":12.9166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4706-002<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Tuesday<br>Time: 12:55 PM - 01:45 PM<br>Duration: 50 minutes<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4706-002",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4706-002<\/b><br>--------------------<br>Instructor(s): Butterfield<br>Day: Tuesday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours<br>Room: MEB 1292",
+        "Resource":[
+            "Butterfield"
+        ],
+        "Room":"MEB 1292",
+        "CourseGroup":"Senior"
+    },
+    {
+        "Task":"CH EN 4870",
+        "Day":"Wednesday",
+        "StartHour":16.1666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4870<\/b><br>--------------------<br>Instructor(s): Sieving<br>Day: Wednesday<br>Time: 04:10 PM - 05:00 PM<br>Duration: 50 minutes<br>Room: WEB 1248",
+        "Resource":[
+            "Sieving"
+        ],
+        "Room":"WEB 1248",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5163\/6163",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5163\/6163<\/b><br>--------------------<br>Instructor(s): Sorkhabi<br>Day: Tuesday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes<br>Room: WBB 820",
+        "Resource":[
+            "Sorkhabi"
+        ],
+        "Room":"WBB 820",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5163\/6163",
+        "Day":"Thursday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5163\/6163<\/b><br>--------------------<br>Instructor(s): Sorkhabi<br>Day: Thursday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes<br>Room: WBB 820",
+        "Resource":[
+            "Sorkhabi"
+        ],
+        "Room":"WBB 820",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5173",
+        "Day":"Tuesday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5173<\/b><br>--------------------<br>Instructor(s): Whitty<br>Day: Tuesday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes<br>Room: MEB 4550",
+        "Resource":[
+            "Whitty"
+        ],
+        "Room":"MEB 4550",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5173",
+        "Day":"Thursday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5173<\/b><br>--------------------<br>Instructor(s): Whitty<br>Day: Thursday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes<br>Room: MEB 4550",
+        "Resource":[
+            "Whitty"
+        ],
+        "Room":"MEB 4550",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5305\/6305",
+        "Day":"Tuesday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5305\/6305<\/b><br>--------------------<br>Instructor(s): Holmes<br>Day: Tuesday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes<br>Room: MEB 2325",
+        "Resource":[
+            "Holmes"
+        ],
+        "Room":"MEB 2325",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5305\/6305",
+        "Day":"Thursday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5305\/6305<\/b><br>--------------------<br>Instructor(s): Holmes<br>Day: Thursday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes<br>Room: MEB 2325",
+        "Resource":[
+            "Holmes"
+        ],
+        "Room":"MEB 2325",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5308\/6308",
+        "Day":"Monday",
+        "StartHour":8.0833333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5308\/6308<\/b><br>--------------------<br>Instructor(s): Gao<br>Day: Monday<br>Time: 08:05 AM - 09:25 AM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1248",
+        "Resource":[
+            "Gao"
+        ],
+        "Room":"WEB 1248",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5308\/6308",
+        "Day":"Wednesday",
+        "StartHour":8.0833333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5308\/6308<\/b><br>--------------------<br>Instructor(s): Gao<br>Day: Wednesday<br>Time: 08:05 AM - 09:25 AM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1248",
+        "Resource":[
+            "Gao"
+        ],
+        "Room":"WEB 1248",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5555\/6555",
+        "Day":"Monday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5555\/6555<\/b><br>--------------------<br>Instructor(s): Nigra<br>Day: Monday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes<br>Room: BU C 108",
+        "Resource":[
+            "Nigra"
+        ],
+        "Room":"BU C 108",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5555\/6555",
+        "Day":"Wednesday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5555\/6555<\/b><br>--------------------<br>Instructor(s): Nigra<br>Day: Wednesday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes<br>Room: BU C 108",
+        "Resource":[
+            "Nigra"
+        ],
+        "Room":"BU C 108",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5960\/6960",
+        "Day":"Wednesday",
+        "StartHour":15.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960\/6960<\/b><br>--------------------<br>Instructor(s): Sant<br>Day: Wednesday<br>Time: 03:00 PM - 04:20 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB L126",
+        "Resource":[
+            "Sant"
+        ],
+        "Room":"WEB L126",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5960\/6960",
+        "Day":"Friday",
+        "StartHour":15.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960\/6960<\/b><br>--------------------<br>Instructor(s): Sant<br>Day: Friday<br>Time: 03:00 PM - 04:20 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB L126",
+        "Resource":[
+            "Sant"
+        ],
+        "Room":"WEB L126",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5960-007",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960-007<\/b><br>--------------------<br>Instructor(s): Parvania<br>Day: Tuesday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1460",
+        "Resource":[
+            "Parvania"
+        ],
+        "Room":"WEB 1460",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 5960-007",
+        "Day":"Thursday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960-007<\/b><br>--------------------<br>Instructor(s): Parvania<br>Day: Thursday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1460",
+        "Resource":[
+            "Parvania"
+        ],
+        "Room":"WEB 1460",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 6400",
+        "Day":"Tuesday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6400<\/b><br>--------------------<br>Instructor(s): Saad<br>Day: Tuesday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB L122",
+        "Resource":[
+            "Saad"
+        ],
+        "Room":"WEB L122",
+        "CourseGroup":"Graduate"
+    },
+    {
+        "Task":"CH EN 6400",
+        "Day":"Thursday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6400<\/b><br>--------------------<br>Instructor(s): Saad<br>Day: Thursday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB L122",
+        "Resource":[
+            "Saad"
+        ],
+        "Room":"WEB L122",
+        "CourseGroup":"Graduate"
+    },
+    {
+        "Task":"CH EN 6703",
+        "Day":"Monday",
+        "StartHour":13.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6703<\/b><br>--------------------<br>Instructor(s): Sutherland<br>Day: Monday<br>Time: 01:25 PM - 02:45 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1248",
+        "Resource":[
+            "Sutherland"
+        ],
+        "Room":"WEB 1248",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 6703",
+        "Day":"Wednesday",
+        "StartHour":13.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6703<\/b><br>--------------------<br>Instructor(s): Sutherland<br>Day: Wednesday<br>Time: 01:25 PM - 02:45 PM<br>Duration: 1 hour 20 minutes<br>Room: WEB 1248",
+        "Resource":[
+            "Sutherland"
+        ],
+        "Room":"WEB 1248",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 6853",
+        "Day":"Tuesday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6853<\/b><br>--------------------<br>Instructor(s): Hoepfner<br>Day: Tuesday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes<br>Room: WEB L122",
+        "Resource":[
+            "Hoepfner"
+        ],
+        "Room":"WEB L122",
+        "CourseGroup":"Graduate"
+    },
+    {
+        "Task":"CH EN 6853",
+        "Day":"Thursday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6853<\/b><br>--------------------<br>Instructor(s): Hoepfner<br>Day: Thursday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes<br>Room: WEB L122",
+        "Resource":[
+            "Hoepfner"
+        ],
+        "Room":"WEB L122",
+        "CourseGroup":"Graduate"
+    },
+    {
+        "Task":"CH EN 6960-002",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 6960-002<\/b><br>--------------------<br>Instructor(s): Zangle<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: WEB 1460",
+        "Resource":[
+            "Zangle"
+        ],
+        "Room":"WEB 1460",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 6960-002",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 6960-002<\/b><br>--------------------<br>Instructor(s): Zangle<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: WEB 1460",
+        "Resource":[
+            "Zangle"
+        ],
+        "Room":"WEB 1460",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 6960-002",
+        "Day":"Friday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 6960-002<\/b><br>--------------------<br>Instructor(s): Zangle<br>Day: Friday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes<br>Room: WEB 1460",
+        "Resource":[
+            "Zangle"
+        ],
+        "Room":"WEB 1460",
+        "CourseGroup":"Elective"
+    },
+    {
+        "Task":"CH EN 7753",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 7753<\/b><br>--------------------<br>Instructor(s): Skliar<br>Day: Tuesday<br>Time: 12:25 PM - 01:15 PM<br>Duration: 50 minutes<br>Room: MEB 3291",
+        "Resource":[
+            "Skliar"
+        ],
+        "Room":"MEB 3291",
+        "CourseGroup":"Graduate"
+    },
+    {
+        "Task":"CH EN 7857",
+        "Day":"Friday",
+        "StartHour":11.8333333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 7857<\/b><br>--------------------<br>Instructor(s): McLennan<br>Day: Friday<br>Time: 11:50 AM - 12:40 PM<br>Duration: 50 minutes<br>Room: WEB 1248",
+        "Resource":[
+            "McLennan"
+        ],
+        "Room":"WEB 1248",
+        "CourseGroup":"Graduate"
+    },
+    {
+        "Task":"ENGIN 1022-Lab",
+        "Day":"Tuesday",
+        "StartHour":15.6666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>ENGIN 1022-Lab<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Tuesday<br>Time: 03:40 PM - 05:00 PM<br>Duration: 1 hour 20 minutes<br>Room: TBD",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"TBD",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"ENGIN 1022-Dis",
+        "Day":"Thursday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>ENGIN 1022-Dis<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Thursday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes<br>Room: MEB 2550",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"MEB 2550",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"ENGIN 1022-Dis",
+        "Day":"Friday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>ENGIN 1022-Dis<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Friday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes<br>Room: MEB 2550",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"MEB 2550",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"ENGIN 1022-Dis",
+        "Day":"Friday",
+        "StartHour":13.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>ENGIN 1022-Dis<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Friday<br>Time: 01:25 PM - 02:45 PM<br>Duration: 1 hour 20 minutes<br>Room: MEB 2550",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"MEB 2550",
+        "CourseGroup":"Other"
+    },
+    {
+        "Task":"ENGIN 1022-Dis",
+        "Day":"Friday",
+        "StartHour":15.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>ENGIN 1022-Dis<\/b><br>--------------------<br>Instructor(s): Firth<br>Day: Friday<br>Time: 03:00 PM - 04:20 PM<br>Duration: 1 hour 20 minutes<br>Room: MEB 2550",
+        "Resource":[
+            "Firth"
+        ],
+        "Room":"MEB 2550",
+        "CourseGroup":"Other"
+    }
+]
