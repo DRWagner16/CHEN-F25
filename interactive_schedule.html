@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Course Schedule</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        #controls-container { /* This is the main container for your H2, buttons, and checkboxes div */
+            margin-bottom: 20px;
+        }
+        #filter-checkboxes {
+            display: flex;         /* Turns on Flexbox layout */
+            flex-wrap: wrap;       /* Allows items to wrap to the next line if they don't fit */
+            gap: 8px 12px;         /* Adds space between items: 8px vertical gap, 12px horizontal gap */
+                                   /* Adjust these gap values as you like */
+            
+            max-height: 200px;     /* Example: Set a max height for the checkbox area */
+            overflow-y: auto;      /* If items exceed max-height, a vertical scrollbar appears */
+            
+            border: 1px solid #ddd; /* Optional: border around the checkbox area */
+            padding: 10px;          /* Optional: padding inside the checkbox area */
+            background-color: #f9f9f9; /* Optional: light background for the area */
+        }
+
+        /* Style for each individual div that wraps a checkbox and its label */
+        #filter-checkboxes > div {
+            display: flex;          /* Align checkbox and label nicely on one line */
+            align-items: center;    /* Vertically center checkbox with its label text */
+            box-sizing: border-box; /* Ensures padding/border are included in the item's total width/height */
+
+            /* --- Strategy for controlling number of columns --- */
+            /* Option A: Aim for a specific number of columns (e.g., 3 or 4) */
+            /* For 3 columns, each item takes roughly 33.33%. Subtract a bit for gaps. */
+            flex-basis: calc(20% - 12px); /* (100% / 3) - horizontal_gap. Adjust 12px if your gap changes. */
+            /* For 4 columns: flex-basis: calc(25% - 12px); */
+            
+            /* Option B: Set a minimum width for items, and let them fill available space */
+            /* flex-grow: 1;
+            flex-shrink: 0; /* Prevent shrinking below basis if you want fixed min width */
+            /* flex-basis: 180px; /* Each item will try to be at least 180px wide */
+
+            /* Remove or adjust margin-bottom if 'gap' handles spacing sufficiently */
+            /* margin-bottom: 5px; */ 
+        }
+
+        #filter-checkboxes input[type="checkbox"] {
+            margin-right: 5px; /* Adds a small space between the checkbox and its label text */
+        }
+
+        #filter-checkboxes label {
+            /* Make sure labels don't wrap awkwardly and show ellipsis for long names */
+            white-space: nowrap;     /* Prevent text from wrapping to a new line */
+            overflow: hidden;        /* Hide text that overflows the label's container */
+            text-overflow: ellipsis; /* Display '...' for overflowed text */
+            cursor: pointer;         /* Change cursor to indicate it's clickable */
+        }
+
+        #schedule-chart-container { 
+            width: 100%; 
+            height: 600px; /* Adjust as needed */
+            margin-top: 20px; /* Add some space above the chart */
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Course Schedule</h1>
+
+    <div id="controls-container">
+        <h2>Filter Courses</h2>
+        <button id="select-all-btn">Select All</button>
+        <button id="deselect-all-btn">Deselect All</button>
+        <div id="filter-checkboxes">
+            </div>
+    </div>
+
+    <div id="schedule-chart-container">
+        </div>
+
+    <script>
+        // Place this inside the <script> tags in your HTML file
+
+// --- 1. Course Data ---
+// Option A: Embed JSON directly (copy content from course_data.json)
+// const allCourseEvents = [ /* Paste JSON array here */ ];
+
+// Option B: Load from course_data.json (requires the HTML and JSON to be served from a web server for local testing,
+// or it will work if HTML is just opened from file system if browser security allows file:// AJAX for local files - often not by default)
+// For simplicity in this example, let's assume you'll embed it or work around loading.
+// If you run a simple local server (e.g., python -m http.server), fetching will work.
+let allCourseEvents = []; // Will be populated, e.g., by fetching course_data.json
+
+// --- Configuration for the chart ---
+const daysOfWeekOrdered = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+const hourTickStart = 7;
+const hourTickEnd = 19;
+const yAxisPlotRange = [hourTickEnd + 0.5, hourTickStart - 0.5]; // Earlier times at top
+
+const ytickvals = [];
+const yticktext = [];
+for (let hVal = hourTickStart; hVal <= hourTickEnd; hVal++) {
+    ytickvals.push(hVal);
+    let labelHourVal = hVal % 12 !== 0 ? hVal % 12 : 12;
+    let amPmVal = hVal < 12 || hVal === 24 ? "AM" : "PM";
+    if (hVal === 0) { labelHourVal = 12; amPmVal = "AM"; }
+    if (hVal === 12) { labelHourVal = 12; amPmVal = "PM"; }
+    yticktext.push(`${labelHourVal} ${amPmVal}`);
+}
+
+// --- Helper to get unique courses and create filter checkboxes ---
+function setupFilters(courseData) {
+    const filterCheckboxesDiv = document.getElementById('filter-checkboxes');
+    filterCheckboxesDiv.innerHTML = ''; // Clear existing checkboxes
+
+    const courseNames = [...new Set(courseData.map(event => event.Task))].sort();
+
+    courseNames.forEach(courseName => {
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = courseName;
+        checkbox.value = courseName;
+        checkbox.checked = true; // Default to selected
+        checkbox.addEventListener('change', updateChart);
+
+        const label = document.createElement('label');
+        label.htmlFor = courseName;
+        label.appendChild(document.createTextNode(courseName));
+        
+        const wrapper = document.createElement('div');
+        wrapper.appendChild(checkbox);
+        wrapper.appendChild(label);
+        filterCheckboxesDiv.appendChild(wrapper);
+    });
+
+    document.getElementById('select-all-btn').addEventListener('click', () => {
+        courseNames.forEach(courseName => { document.getElementById(courseName).checked = true; });
+        updateChart();
+    });
+    document.getElementById('deselect-all-btn').addEventListener('click', () => {
+        courseNames.forEach(courseName => { document.getElementById(courseName).checked = false; });
+        updateChart();
+    });
+}
+
+// --- Function to draw/update the Plotly chart ---
+// Place this updated function inside the <script> tags in your HTML file,
+// replacing the previous plotSchedule function.
+
+function plotSchedule(filteredEvents) {
+    const chartDiv = 'schedule-chart-container';
+    const traces = [];
+
+    // --- Configuration (days, hours, y-axis, ticks - remains the same) ---
+    const daysOfWeekOrdered = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+    const hourTickStart = 7;
+    const hourTickEnd = 19;
+    const yAxisPlotRange = [hourTickEnd + 0.5, hourTickStart - 0.5]; // Earlier times at top
+    const yShapeMinVal = hourTickStart - 0.5;
+    const yShapeMaxVal = hourTickEnd + 0.5;
+    const ytickvals = [];
+    const yticktext = [];
+    for (let hVal = hourTickStart; hVal <= hourTickEnd; hVal++) {
+        ytickvals.push(hVal);
+        let labelHourVal = hVal % 12 !== 0 ? hVal % 12 : 12;
+        let amPmVal = hVal < 12 || hVal === 24 ? "AM" : "PM";
+        if (hVal === 0) { labelHourVal = 12; amPmVal = "AM"; }
+        if (hVal === 12) { labelHourVal = 12; amPmVal = "PM"; }
+        yticktext.push(`${labelHourVal} ${amPmVal}`);
+    }
+    // --- End Configuration ---
+
+    // Color mapping and trace generation logic remains the same...
+    const uniqueTasksInFilter = [...new Set(filteredEvents.map(event => event.Task))];
+    const plotlyColors = [ /* ... your colors ... */ 
+        '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
+        '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf' 
+    ];
+    const courseColorMap = {};
+    uniqueTasksInFilter.forEach((task, i) => {
+        courseColorMap[task] = plotlyColors[i % plotlyColors.length];
+    });
+
+    filteredEvents.forEach(event => {
+        if (event.StartHour == null || event.DurationHours == null || event.DurationHours <= 0) {
+            return;
+        }
+        traces.push({
+            type: 'bar',
+            x: [event.Day],
+            y: [event.DurationHours],
+            base: [event.StartHour],
+            name: event.Task,
+            marker: { 
+                color: courseColorMap[event.Task] || '#cccccc',
+                line: { color: 'rgba(0,0,0,0.5)', width: 0.5 }
+            },
+            text: event.Task,
+            textposition: 'inside',
+            insidetextanchor: 'middle',
+            customdata: [event.HoverInfo],
+            hovertemplate: '%{customdata}<extra></extra>',
+            width: 0.25 // Or your preferred width from previous step
+        });
+    });
+
+    // Background shapes logic remains the same...
+    const backgroundShapes = [];
+    daysOfWeekOrdered.forEach((day, index) => {
+        backgroundShapes.push({
+            type: 'rect', xref: 'x', yref: 'y',
+            x0: index - 0.5, x1: index + 0.5,
+            y0: yShapeMinVal, y1: yShapeMaxVal,
+            fillcolor: (index % 2 === 0) ? 'rgba(200, 200, 200, 0.5)' : 'rgba(240, 240, 240, 0.2)',
+            line: { color: 'rgba(180, 180, 180, 0.4)', width: 1 },
+            layer: 'below'
+        });
+    });
+
+    // --- UPDATE THE LAYOUT OBJECT HERE ---
+    const layout = {
+        // title: 'Weekly Course Schedule',
+        xaxis: {
+            title: 'Day of the Week',
+            categoryorder: 'array',
+            categoryarray: daysOfWeekOrdered,
+            side: 'top',
+            type: 'category',
+            tickangle: 0
+        },
+        yaxis: {
+            title: 'Time of Day',
+            range: yAxisPlotRange,
+            tickvals: ytickvals,
+            ticktext: yticktext
+        },
+        barmode: 'group',
+        hovermode: 'closest',      // <<< --- ADD THIS: Ensure closest point hover
+        bargroupgap: 0.2,          // <<< --- ADD THIS: Adds a 10% gap between bars within a group
+        showlegend: false,          // Or false, as preferred
+        legend: { title: { text: 'Courses' } },
+        margin: { t: 80, b: 50, l: 70, r: 30 },
+        shapes: backgroundShapes
+    };
+    // --- END LAYOUT UPDATE ---
+
+    Plotly.react(chartDiv, traces, layout); // Use Plotly.react for efficient updates
+    console.log(`Plotted ${traces.length} course events.`);
+    if(traces.length === 0 && filteredEvents.length > 0) {
+        console.warn("Traces array is empty but filteredEvents has data. Check trace generation logic.");
+    } else if (traces.length === 0 && document.querySelectorAll('#filter-checkboxes input[type="checkbox"]:checked').length > 0) {
+        console.warn("No traces generated, but courses are selected. Check data or filters.")
+    }
+}
+
+// --- Function to get selected courses and update chart ---
+function updateChart() {
+    const selectedCourses = [];
+    const checkboxes = document.querySelectorAll('#filter-checkboxes input[type="checkbox"]:checked');
+    checkboxes.forEach(cb => selectedCourses.push(cb.value));
+
+    const filteredEvents = allCourseEvents.filter(event => selectedCourses.includes(event.Task));
+    plotSchedule(filteredEvents);
+}
+
+// --- Initial Load ---
+// Fetch data, then setup filters and plot
+fetch('course_data.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status} - Did you generate course_data.json and is it accessible?`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        allCourseEvents = data;
+        if (allCourseEvents && allCourseEvents.length > 0) {
+            setupFilters(allCourseEvents);
+            updateChart(); // Initial plot with all courses selected by default
+        } else {
+            document.getElementById('schedule-chart-container').innerHTML = "No course data loaded or data is empty.";
+            console.error("No course data loaded or course_data.json is empty.");
+        }
+    })
+    .catch(error => {
+        console.error('Error loading or processing course data:', error);
+        document.getElementById('schedule-chart-container').innerHTML = `Error loading schedule: ${error}. Make sure course_data.json is in the same directory and your browser can access local files (or use a local server).`;
+    });
+
+</script>
+</body>
+</html>
+    </script>
+</body>
+</html>

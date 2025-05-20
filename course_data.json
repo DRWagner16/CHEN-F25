@@ -1,0 +1,570 @@
+[
+    {
+        "Task":"CH EN 1703-001",
+        "Day":"Tuesday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 1703-001<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Tuesday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 1703-001",
+        "Day":"Thursday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 1703-001<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Thursday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 1703-002",
+        "Day":"Monday",
+        "StartHour":11.8333333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-002<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Monday<br>Time: 11:50 AM - 12:40 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 1703-003",
+        "Day":"Monday",
+        "StartHour":14.0,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-003<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Monday<br>Time: 02:00 PM - 02:50 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 1703-004",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-004<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Tuesday<br>Time: 12:25 PM - 01:15 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 1703-005",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-005<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Tuesday<br>Time: 02:00 PM - 02:50 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 1703-006",
+        "Day":"Wednesday",
+        "StartHour":17.1666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 1703-006<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Wednesday<br>Time: 05:10 PM - 06:00 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 2300",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 2300<\/b><br>--------------------<br>Instructor: Kelly<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Kelly"
+    },
+    {
+        "Task":"CH EN 2300",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 2300<\/b><br>--------------------<br>Instructor: Kelly<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Kelly"
+    },
+    {
+        "Task":"CH EN 2450",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2450<\/b><br>--------------------<br>Instructor: Chen<br>Day: Tuesday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Chen"
+    },
+    {
+        "Task":"CH EN 2450",
+        "Day":"Thursday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2450<\/b><br>--------------------<br>Instructor: Chen<br>Day: Thursday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Chen"
+    },
+    {
+        "Task":"CH EN 2800",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2800<\/b><br>--------------------<br>Instructor: Chen<br>Day: Tuesday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Chen"
+    },
+    {
+        "Task":"CH EN 2800",
+        "Day":"Thursday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 2800<\/b><br>--------------------<br>Instructor: Chen<br>Day: Thursday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Chen"
+    },
+    {
+        "Task":"CH EN 2953",
+        "Day":"Tuesday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 2953<\/b><br>--------------------<br>Instructor: Eddings<br>Day: Tuesday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Eddings"
+    },
+    {
+        "Task":"CH EN 3253",
+        "Day":"Monday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3253<\/b><br>--------------------<br>Instructor: Deo, Wagner<br>Day: Monday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes",
+        "Resource":"Deo, Wagner"
+    },
+    {
+        "Task":"CH EN 3253",
+        "Day":"Wednesday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3253<\/b><br>--------------------<br>Instructor: Deo, Wagner<br>Day: Wednesday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes",
+        "Resource":"Deo, Wagner"
+    },
+    {
+        "Task":"CH EN 3253",
+        "Day":"Friday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3253<\/b><br>--------------------<br>Instructor: Deo, Wagner<br>Day: Friday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes",
+        "Resource":"Deo, Wagner"
+    },
+    {
+        "Task":"CH EN 3353",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3353<\/b><br>--------------------<br>Instructor: Faroughi<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Faroughi"
+    },
+    {
+        "Task":"CH EN 3353",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3353<\/b><br>--------------------<br>Instructor: Faroughi<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Faroughi"
+    },
+    {
+        "Task":"CH EN 3353",
+        "Day":"Friday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3353<\/b><br>--------------------<br>Instructor: Faroughi<br>Day: Friday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Faroughi"
+    },
+    {
+        "Task":"CH EN 3453",
+        "Day":"Monday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 3453<\/b><br>--------------------<br>Instructor: Pershing, Powell<br>Day: Monday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Pershing, Powell"
+    },
+    {
+        "Task":"CH EN 3453",
+        "Day":"Wednesday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 3453<\/b><br>--------------------<br>Instructor: Pershing, Powell<br>Day: Wednesday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Pershing, Powell"
+    },
+    {
+        "Task":"CH EN 3700-001",
+        "Day":"Monday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-001<\/b><br>--------------------<br>Instructor: Coburn<br>Day: Monday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes",
+        "Resource":"Coburn"
+    },
+    {
+        "Task":"CH EN 3700-001",
+        "Day":"Wednesday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-001<\/b><br>--------------------<br>Instructor: Coburn<br>Day: Wednesday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes",
+        "Resource":"Coburn"
+    },
+    {
+        "Task":"CH EN 3700-001",
+        "Day":"Friday",
+        "StartHour":8.5833333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-001<\/b><br>--------------------<br>Instructor: Coburn<br>Day: Friday<br>Time: 08:35 AM - 09:25 AM<br>Duration: 50 minutes",
+        "Resource":"Coburn"
+    },
+    {
+        "Task":"CH EN 3700-002",
+        "Day":"Monday",
+        "StartHour":7.5,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-002<\/b><br>--------------------<br>Instructor: Coburn<br>Day: Monday<br>Time: 07:30 AM - 08:20 AM<br>Duration: 50 minutes",
+        "Resource":"Coburn"
+    },
+    {
+        "Task":"CH EN 3700-002",
+        "Day":"Wednesday",
+        "StartHour":7.5,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-002<\/b><br>--------------------<br>Instructor: Coburn<br>Day: Wednesday<br>Time: 07:30 AM - 08:20 AM<br>Duration: 50 minutes",
+        "Resource":"Coburn"
+    },
+    {
+        "Task":"CH EN 3700-002",
+        "Day":"Friday",
+        "StartHour":7.5,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3700-002<\/b><br>--------------------<br>Instructor: Coburn<br>Day: Friday<br>Time: 07:30 AM - 08:20 AM<br>Duration: 50 minutes",
+        "Resource":"Coburn"
+    },
+    {
+        "Task":"CH EN 3701-001",
+        "Day":"Monday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 3701-001<\/b><br>--------------------<br>Instructor: Porter, Pershing, McLennan<br>Day: Monday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours",
+        "Resource":"Porter, Pershing, McLennan"
+    },
+    {
+        "Task":"CH EN 3701-002",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 3701-002<\/b><br>--------------------<br>Instructor: Porter, Pershing, McLennan<br>Day: Tuesday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours",
+        "Resource":"Porter, Pershing, McLennan"
+    },
+    {
+        "Task":"CH EN 3853",
+        "Day":"Monday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3853<\/b><br>--------------------<br>Instructor: Wang<br>Day: Monday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Wang"
+    },
+    {
+        "Task":"CH EN 3853",
+        "Day":"Wednesday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3853<\/b><br>--------------------<br>Instructor: Wang<br>Day: Wednesday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Wang"
+    },
+    {
+        "Task":"CH EN 3853",
+        "Day":"Friday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 3853<\/b><br>--------------------<br>Instructor: Wang<br>Day: Friday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Wang"
+    },
+    {
+        "Task":"CH EN 4203",
+        "Day":"Monday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4203<\/b><br>--------------------<br>Instructor: Firth<br>Day: Monday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Firth"
+    },
+    {
+        "Task":"CH EN 4203",
+        "Day":"Wednesday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4203<\/b><br>--------------------<br>Instructor: Firth<br>Day: Wednesday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Firth"
+    },
+    {
+        "Task":"CH EN 4203",
+        "Day":"Friday",
+        "StartHour":10.75,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4203<\/b><br>--------------------<br>Instructor: Firth<br>Day: Friday<br>Time: 10:45 AM - 11:35 AM<br>Duration: 50 minutes",
+        "Resource":"Firth"
+    },
+    {
+        "Task":"CH EN 4253",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4253<\/b><br>--------------------<br>Instructor: Wagner<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Wagner"
+    },
+    {
+        "Task":"CH EN 4253",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4253<\/b><br>--------------------<br>Instructor: Wagner<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Wagner"
+    },
+    {
+        "Task":"CH EN 4253",
+        "Day":"Friday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4253<\/b><br>--------------------<br>Instructor: Wagner<br>Day: Friday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Wagner"
+    },
+    {
+        "Task":"CH EN 4701-001",
+        "Day":"Wednesday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4701-001<\/b><br>--------------------<br>Instructor: Firth<br>Day: Wednesday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours",
+        "Resource":"Firth"
+    },
+    {
+        "Task":"CH EN 4701-002",
+        "Day":"Thursday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4701-002<\/b><br>--------------------<br>Instructor: Firth<br>Day: Thursday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours",
+        "Resource":"Firth"
+    },
+    {
+        "Task":"CH EN 4706-001",
+        "Day":"Monday",
+        "StartHour":12.9166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4706-001<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Monday<br>Time: 12:55 PM - 01:45 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 4706-001",
+        "Day":"Monday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4706-001<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Monday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 4706-002",
+        "Day":"Tuesday",
+        "StartHour":12.9166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4706-002<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Tuesday<br>Time: 12:55 PM - 01:45 PM<br>Duration: 50 minutes",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 4706-002",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":3.0,
+        "HoverInfo":"<b>CH EN 4706-002<\/b><br>--------------------<br>Instructor: Butterfield<br>Day: Tuesday<br>Time: 02:00 PM - 05:00 PM<br>Duration: 3 hours",
+        "Resource":"Butterfield"
+    },
+    {
+        "Task":"CH EN 4870",
+        "Day":"Wednesday",
+        "StartHour":16.1666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 4870<\/b><br>--------------------<br>Instructor: Sieving<br>Day: Wednesday<br>Time: 04:10 PM - 05:00 PM<br>Duration: 50 minutes",
+        "Resource":"Sieving"
+    },
+    {
+        "Task":"CH EN 5163\/6163",
+        "Day":"Tuesday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5163\/6163<\/b><br>--------------------<br>Instructor: Sorkhabi<br>Day: Tuesday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Sorkhabi"
+    },
+    {
+        "Task":"CH EN 5163\/6163",
+        "Day":"Thursday",
+        "StartHour":14.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5163\/6163<\/b><br>--------------------<br>Instructor: Sorkhabi<br>Day: Thursday<br>Time: 02:00 PM - 03:20 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Sorkhabi"
+    },
+    {
+        "Task":"CH EN 5173",
+        "Day":"Tuesday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5173<\/b><br>--------------------<br>Instructor: Whitty<br>Day: Tuesday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Whitty"
+    },
+    {
+        "Task":"CH EN 5173",
+        "Day":"Thursday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5173<\/b><br>--------------------<br>Instructor: Whitty<br>Day: Thursday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Whitty"
+    },
+    {
+        "Task":"CH EN 5305\/6305",
+        "Day":"Tuesday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5305\/6305<\/b><br>--------------------<br>Instructor: Holmes<br>Day: Tuesday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Holmes"
+    },
+    {
+        "Task":"CH EN 5305\/6305",
+        "Day":"Thursday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5305\/6305<\/b><br>--------------------<br>Instructor: Holmes<br>Day: Thursday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Holmes"
+    },
+    {
+        "Task":"CH EN 5308\/6308",
+        "Day":"Monday",
+        "StartHour":8.0833333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5308\/6308<\/b><br>--------------------<br>Instructor: Gao<br>Day: Monday<br>Time: 08:05 AM - 09:25 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Gao"
+    },
+    {
+        "Task":"CH EN 5308\/6308",
+        "Day":"Wednesday",
+        "StartHour":8.0833333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5308\/6308<\/b><br>--------------------<br>Instructor: Gao<br>Day: Wednesday<br>Time: 08:05 AM - 09:25 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Gao"
+    },
+    {
+        "Task":"CH EN 5555\/6555",
+        "Day":"Monday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5555\/6555<\/b><br>--------------------<br>Instructor: Nigra<br>Day: Monday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Nigra"
+    },
+    {
+        "Task":"CH EN 5555\/6555",
+        "Day":"Wednesday",
+        "StartHour":11.8333333333,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5555\/6555<\/b><br>--------------------<br>Instructor: Nigra<br>Day: Wednesday<br>Time: 11:50 AM - 01:10 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Nigra"
+    },
+    {
+        "Task":"CH EN 5960\/6960",
+        "Day":"Wednesday",
+        "StartHour":15.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960\/6960<\/b><br>--------------------<br>Instructor: Sant<br>Day: Wednesday<br>Time: 03:00 PM - 04:20 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Sant"
+    },
+    {
+        "Task":"CH EN 5960\/6960",
+        "Day":"Friday",
+        "StartHour":15.0,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960\/6960<\/b><br>--------------------<br>Instructor: Sant<br>Day: Friday<br>Time: 03:00 PM - 04:20 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Sant"
+    },
+    {
+        "Task":"CH EN 5960-007",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960-007<\/b><br>--------------------<br>Instructor: Parvania<br>Day: Tuesday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Parvania"
+    },
+    {
+        "Task":"CH EN 5960-007",
+        "Day":"Thursday",
+        "StartHour":12.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 5960-007<\/b><br>--------------------<br>Instructor: Parvania<br>Day: Thursday<br>Time: 12:25 PM - 01:45 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Parvania"
+    },
+    {
+        "Task":"CH EN 6400",
+        "Day":"Tuesday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6400<\/b><br>--------------------<br>Instructor: Saad<br>Day: Tuesday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Saad"
+    },
+    {
+        "Task":"CH EN 6400",
+        "Day":"Thursday",
+        "StartHour":10.75,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6400<\/b><br>--------------------<br>Instructor: Saad<br>Day: Thursday<br>Time: 10:45 AM - 12:05 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Saad"
+    },
+    {
+        "Task":"CH EN 6703",
+        "Day":"Monday",
+        "StartHour":13.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6703<\/b><br>--------------------<br>Instructor: Sutherland<br>Day: Monday<br>Time: 01:25 PM - 02:45 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Sutherland"
+    },
+    {
+        "Task":"CH EN 6703",
+        "Day":"Wednesday",
+        "StartHour":13.4166666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6703<\/b><br>--------------------<br>Instructor: Sutherland<br>Day: Wednesday<br>Time: 01:25 PM - 02:45 PM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Sutherland"
+    },
+    {
+        "Task":"CH EN 6853",
+        "Day":"Tuesday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6853<\/b><br>--------------------<br>Instructor: Hoepfner<br>Day: Tuesday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Hoepfner"
+    },
+    {
+        "Task":"CH EN 6853",
+        "Day":"Thursday",
+        "StartHour":9.1666666667,
+        "DurationHours":1.3333333333,
+        "HoverInfo":"<b>CH EN 6853<\/b><br>--------------------<br>Instructor: Hoepfner<br>Day: Thursday<br>Time: 09:10 AM - 10:30 AM<br>Duration: 1 hour 20 minutes",
+        "Resource":"Hoepfner"
+    },
+    {
+        "Task":"CH EN 6960-002",
+        "Day":"Monday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 6960-002<\/b><br>--------------------<br>Instructor: Zangle<br>Day: Monday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Zangle"
+    },
+    {
+        "Task":"CH EN 6960-002",
+        "Day":"Wednesday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 6960-002<\/b><br>--------------------<br>Instructor: Zangle<br>Day: Wednesday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Zangle"
+    },
+    {
+        "Task":"CH EN 6960-002",
+        "Day":"Friday",
+        "StartHour":9.6666666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 6960-002<\/b><br>--------------------<br>Instructor: Zangle<br>Day: Friday<br>Time: 09:40 AM - 10:30 AM<br>Duration: 50 minutes",
+        "Resource":"Zangle"
+    },
+    {
+        "Task":"CH EN 7753",
+        "Day":"Tuesday",
+        "StartHour":12.4166666667,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 7753<\/b><br>--------------------<br>Instructor: Skliar<br>Day: Tuesday<br>Time: 12:25 PM - 01:15 PM<br>Duration: 50 minutes",
+        "Resource":"Skliar"
+    },
+    {
+        "Task":"CH EN 7857",
+        "Day":"Friday",
+        "StartHour":11.8333333333,
+        "DurationHours":0.8333333333,
+        "HoverInfo":"<b>CH EN 7857<\/b><br>--------------------<br>Instructor: Mclennan<br>Day: Friday<br>Time: 11:50 AM - 12:40 PM<br>Duration: 50 minutes",
+        "Resource":"Mclennan"
+    }
+]
