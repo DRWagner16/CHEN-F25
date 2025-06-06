@@ -1,4 +1,5 @@
 # Site settings
 title: CH EN Fall 2025 Schedule Planner
 description: The filters below offer course or instructor views of the schedule this semester.
-theme: jekyll-theme-dinky
+theme: jekyll-theme-cayman
+show_downloads: "false" //["true" or "false" (unquoted) to indicate whether to provide a download URL]
