@@ -4,17 +4,17 @@
 @import "{{ site.theme }}";
 
 /* Add your custom CSS rules below */
-.styled-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  width: 1000px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+// .styled-image {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   max-width: 100%;
+//   width: 1000px;
+//   margin-top: 30px;
+//   margin-bottom: 30px;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+// }
 .plotly-container {
   display: block;
   margin: 30px auto; /* Adds space above/below and centers the plot */
