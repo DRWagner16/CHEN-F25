@@ -518,7 +518,7 @@ function plotSchedule(filteredEvents) {
         yaxis: { title: 'Time of Day', range: yAxisPlotRange, tickvals: ytickvals, ticktext: yticktext },
         barmode: 'group', hovermode: 'closest', bargroupgap: 2, bargap: 0.3, 
         showlegend: false, legend: { title: { text: 'Courses' } },
-        margin: { t: 80, b: 50, l: 70, r: 30 }, shapes: backgroundShapes
+        margin: { t: 50, b: 50, l: 40, r: 20 }, shapes: backgroundShapes
     };
     
     try {
