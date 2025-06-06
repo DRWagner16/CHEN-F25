@@ -62,7 +62,7 @@ layout: default
         </div>
     </div>
 
-    <div id="schedule-chart-container">
+    <div id="schedule-chart-container" class="plotly-container">
     </div>
 
     <script>
