@@ -24,3 +24,9 @@
   overflow: hidden; /* Important for making the iframe respect the rounded corners */
   max-width: 100%; /* Ensures it doesn't get too wide on large screens */
 }
+/*
+ * Overrides the default page width from the 'minimal' theme
+ */
+.wrapper {
+  max-width: 85rem; /* The theme default is 62rem. Increase this value as you see fit. */
+}
