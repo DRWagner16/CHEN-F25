@@ -510,6 +510,9 @@ function plotSchedule(filteredEvents) {
     });
 
     const layout = { 
+        autosize: true,   // <-- Add this line
+        height: 800,      // <-- Add this line (you can adjust this value)
+        
         // title: 'Weekly Course Schedule',
         xaxis: { title: 'Day of the Week', categoryorder: 'array', categoryarray: daysOfWeekOrdered, side: 'top', type: 'category', tickangle: 0 },
         yaxis: { title: 'Time of Day', range: yAxisPlotRange, tickvals: ytickvals, ticktext: yticktext },
