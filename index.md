@@ -43,7 +43,7 @@ layout: default
     </style>
 </head>
 <body>
-    <h1>CH EN Fall 2025 Schedule Planner</h1>
+    //<h1>CH EN Fall 2025 Schedule Planner</h1>
 
     <div id="controls-container">
         <h2>Filter Courses</h2>
