@@ -15,3 +15,12 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+.plotly-container {
+  display: block;
+  margin: 30px auto; /* Adds space above/below and centers the plot */
+  border: 1px solid #e1e4e8; /* A light border matching GitHub's aesthetic */
+  border-radius: 8px; /* Soft, rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* A subtle shadow for depth */
+  overflow: hidden; /* Important for making the iframe respect the rounded corners */
+  max-width: 95%; /* Ensures it doesn't get too wide on large screens */
+}
